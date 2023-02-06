@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VET.</title>
+    <link rel="icon" href="./assets/favicon.svg">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="sidebar">
+        <div class="sidebar-main">
+            <header>
+                <img src="./assets/logo.svg" alt="Logo VET." class="hide-onclick">
+
+                <button id="sidebar-switcher1" class="sidebar-switcher">
+                    <img src="./assets/sidebar-button.svg" alt="sidebar button">
+                </button>
+
+                <button id="sidebar-switcher2" class="sidebar-switcher hide">
+                    <img src="./assets/sidebar-button.svg" alt="sidebar button">
+                </button>
+            </header>
+
+            <div class="links">
+                <div class="search">
+                    <input type="text" placeholder="Buscar" id="search">
+                </div>
+
+                <div class="container">
+                    <img src="./assets/dashboard-icon.svg" alt="dashboard">
+                    <a href="#" class="invisible-onclick">Dashboard</a>
+                </div>
+
+                <div class="container">
+                    <img src="./assets/pets-icon.svg" alt="pets">
+                    <a href="#" class="invisible-onclick">Pets</a>
+                </div>
+
+                <div class="container">
+                    <img src="./assets/clients-icon.svg" alt="clientes">
+                    <a href="#" class="invisible-onclick">Clientes</a>
+                </div>
+
+                <div class="container">
+                    <img src="./assets/vets-icon.svg" alt="vets">
+                    <a href="#" class="invisible-onclick">Vets</a>
+                </div>
+
+                <div class="container">
+                    <img src="./assets/config-icon.svg" alt="ajustes">
+                    <a href="#" class="invisible-onclick">Ajustes</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <img id="avatar" src="./assets/avatar.png" alt="foto veterinária" class="hide-onclick">
+            <div class="text">
+                <h2 class="hide-onclick">Eleanor Pena</h2>
+                <span class="hide-onclick">Veterinária</span>
+            </div>
+            <img src="./assets/logout-icon.svg" alt="sair">
+        </footer>
+    </nav>
+
+    <main>
+        <h1>Dashboard</h1>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

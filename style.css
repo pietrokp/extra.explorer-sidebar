@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --dark-green: #084236;
+    --light-green: #8ED7C6;
+    --live-green: #18C29C;
+    --greyish: #DCE4E3;
+    --light-grey: #DCE4E3;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+
+    background-color: var(--greyish);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 25rem;
+    height: 100vh;
+
+    background-color: var(--live-green);
+
+    transition: .5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2.5rem 0 3.5rem 2rem;
+}
+
+.sidebar-switcher {
+    background: transparent;
+    border: none;
+
+    margin-right: 2rem;
+}
+
+.sidebar-switcher:hover {
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4.5rem;
+}
+
+input {
+    width: 22.5rem;
+    height: 5rem;
+
+    border-radius: 1.2rem;
+    border: none;
+
+    margin-left: 1rem;
+    padding-left: 4.3rem;
+
+    background-image: url(./assets/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 1rem 1.2rem;
+    background-color: var(--light-green);
+
+    outline: none;
+
+    transition: .5s;
+}
+
+input::placeholder {
+    color: var(--dark-green)
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 1.5rem;
+
+    padding-left: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--light-green);
+
+    padding: 1.2rem 2rem 1.2rem 2rem;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+    color: var(--dark-green);
+
+    padding: 2rem;
+}
+
+a,
+h2,
+span,
+input {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: var(--dark-green);
+
+    text-decoration: none;
+}
+
+span {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.disappear {
+    opacity: 0;
+    width: 0;
+    transition: .3s;
+}
+
+.appear {
+    opacity: 1;
+    width: auto;
+    transition: .3s;
+}
