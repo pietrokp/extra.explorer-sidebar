@@ -5,7 +5,9 @@ Projetos e desafios extras encontrados na Biblioteca Explorer, da Rocketseat.
 </p>
 
 <p align="center">
-
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
